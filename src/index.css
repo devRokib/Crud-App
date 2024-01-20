@@ -1,0 +1,75 @@
+
+body{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.mainContainer {
+  width: 500px;
+  margin: auto;
+  background: #f3f3f3;
+  padding: 30px 20px;
+  text-align: center;
+  border-radius: 5px;
+}
+table {
+  display: flex;
+  flex-wrap: wrap;
+}
+tbody {
+  width: 500px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+td {
+  display: flex;
+  width: 100%;
+  text-align: center;
+  margin: 5px 0;
+  background:#1abc9c;
+  justify-content: space-between;
+  padding: 5px 10px;
+  color: #fff;
+}
+h1 {
+  text-align: center;
+  margin-top: 0;
+}
+form {
+  margin-bottom: 12px;
+}
+input[type="text"] {
+  padding: 5px;
+  height: 20px;
+  width: 38%;
+  border: transparent;
+  background: #fff;
+  /* outline: none; */
+}
+input[type="number"] {
+  padding: 5px;
+  height: 20px;
+  width: 38%;
+  border: transparent;
+  background: #fff;
+  /* outline: none; */
+}
+.addItem {
+  width: 18%;
+  height: 33px;
+  color: #fff;
+  background: #34495e;
+  border: transparent;
+  font-size: 16px;
+  
+}
+button.deleteBtn {
+  background: red;
+  border: transparent;
+  padding: 3px 10px;
+}
+button.editBtn {
+  background: #e67e22;
+  border: transparent;
+  padding: 3px 10px;
+}
